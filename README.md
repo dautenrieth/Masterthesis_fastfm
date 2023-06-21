@@ -7,8 +7,8 @@ This repository contains a framework that facilitates the loading of graphs from
 There are two ways to install the required dependencies:
 
 - Recreate the environment using the provided `.yml` file and [Anaconda](https://www.anaconda.com/download). This is the recommended way to ensure you have all the necessary packages.
-- Manually install the [OGB](https://ogb.stanford.edu/docs/home/) and [myFM](https://github.com/ibayer/fastFM) libraries. Guides on how to do this can be found on the respective sites.
-- Be aware that fastFM can only be built on Linux or OS X Mavericks.
+- Manually install the [OGB](https://ogb.stanford.edu/docs/home/) and [fastFM](https://github.com/ibayer/fastFM) libraries. Guides on how to do this can be found on the respective sites.
+! Be aware that fastFM can only be built on Linux or OS X Mavericks. When using Linux, consider that OGB can only be installed easily on newer versions (>16.0)
 
 
 
