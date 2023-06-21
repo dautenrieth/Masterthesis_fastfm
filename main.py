@@ -174,7 +174,6 @@ def main():
     if sgd_part:
         command = f"SGD rank:{rank} n_iter:{n_iter} runs: {runs}"
         save_in_excel(hits_overall1, command)
-
     if mcmc_part:
         command = f"SGD rank:{rank} n_iter:{n_iter} runs: {runs}"
         save_in_excel(hits_overall1, command)
