@@ -8,6 +8,7 @@ There are two ways to install the required dependencies:
 
 - Recreate the environment using the provided `.yml` file and [Anaconda](https://www.anaconda.com/download). This is the recommended way to ensure you have all the necessary packages.
 - Manually install the [OGB](https://ogb.stanford.edu/docs/home/) and [fastFM](https://github.com/ibayer/fastFM) libraries. Guides on how to do this can be found on the respective sites.
+
 ! Be aware that fastFM can only be built on Linux or OS X Mavericks. When using Linux, consider that OGB can only be installed easily on newer versions (>16.0)
 
 
@@ -31,9 +32,9 @@ All run data will be automatically saved in an Excel file for convenient examina
 
 The framework currently supports the following data parts:
 
-- Node Embeddings
-- NodeIDs
 - Vectors:
+  - Node Embeddings
+  - NodeIDs
   - Neighborhood (Binary) (Normalized)
   - Common Neighborhood (Binary) (Normalized)
 - Values:
